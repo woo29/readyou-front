@@ -5,6 +5,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module",
     "project": "./tsconfig.json"
+    
   },
   "env": {
     "browser": true,
@@ -12,6 +13,7 @@
   },
   "extends": [
     "next/core-web-vitals",
+    "@typescript-eslint/parser",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "prettier"
